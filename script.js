@@ -28,7 +28,7 @@ $(document).ready(function(){
         var d= new Date();
         let day=d.getDay();
         console.log(day);
-        if(day==5){
+        if(day==6){
         if (playPromise !== undefined) {
           playPromise.then(_ => {
             // Automatic playback started!
